@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: blueviolet;
+    width: 100%;
+}
+#survey-form{
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1b1b32;
+    background-color: rgba(27, 27, 50, 0.8);
+    max-width: 50%;
+    margin: 20px auto ;
+    margin-top: 10vh;
+    padding: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+ #details input{
+    width: 100%;
+    height: 40px;
+    background: white;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+#dropdown{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+::placeholder{
+    padding-left: 20px;
+}
+button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(75, 187, 75);
+    border: none;
+    color:aliceblue;
+    font-size: 16px;
+}
+#role{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+
+}
+textarea{
+    width: 100%;
+    height: 80px;
+    color: grey;
+
+}
+.title{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    width: 100%;
+    font-size:  17px;
+}
+select{
+    color:gray;
+}
+.para{
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+.para-two{
+    padding-bottom: 10px;
+}
+.para-four{
+    padding-bottom: 10px;
+}
+.para-five{
+    padding-bottom: 10px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    
+}
+input[type='radio']{
+    width: 18px;
+    height: 18px;
+    gap: 10px;
+    padding: 10px;
+}
